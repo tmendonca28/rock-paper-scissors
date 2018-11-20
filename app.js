@@ -68,6 +68,7 @@ function game(userChoice) {
         case "scissorsrock":
             console.log("User loses.");
             lose(userChoice, computerChoice);
+            break;
         case "rockrock":
         case "paperpaper":
         case "scissorsscissors":
